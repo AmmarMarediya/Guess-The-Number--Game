@@ -8,7 +8,7 @@ do {
     guess = prompt("Guess the number between 1 and 100: ");
     guess = parseInt(guess);
     if (no === guess) {
-        alert(`\n✅You guessed it right", ${no}`);
+        alert(`\n✅You guessed it right ${no}`);
     } else if (no > guess) {
         alert(
             `\n❌you guessed it wrong, the number is greater than ${guess} \n`
@@ -24,4 +24,4 @@ do {
 } while (no !== guess);
 
 alert(`\n🎉you guessed it right in ${chance} chances🎉`);
-alert(`\n\tyour score is ${(score = 100 - chance)} "🥳`);
+alert(`\n\tyour score is ${(score = 100 - chance)} 🥳`);
