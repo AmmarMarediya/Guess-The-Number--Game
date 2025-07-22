@@ -10,11 +10,11 @@ do {
         alert(`\n✅You Guessed it Right ${no}`);
     } else if (no > guess) {
         alert(
-            `\n❌You Guessed it Wrong, the Number is Greater Than ${guess} \n`
+            `\n❌You Guessed it Wrong, the Number is Greater Than >${guess} \n`
         );
     } else if (no < guess && guess < 100) {
         alert(
-            `\n❌You Guessed it Wrong, the Number is Less Than ${guess} \n`
+            `\n❌You Guessed it Wrong, the Number is Less Than <${guess} \n`
         );
     } else {
         alert("\n🔴Please Enter Number Between 1 and 100");
